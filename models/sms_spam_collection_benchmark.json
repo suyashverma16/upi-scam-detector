@@ -1,0 +1,49 @@
+{
+  "dataset": "D:\\sms+spam+collection\\SMSSpamCollection",
+  "total_samples": 5574,
+  "ham_samples": 4827,
+  "spam_samples": 747,
+  "accuracy": 0.8685,
+  "precision": 1.0,
+  "recall": 0.0187,
+  "f1": 0.0368,
+  "roc_auc": 0.838,
+  "confusion_matrix": {
+    "tn": 4827,
+    "fp": 0,
+    "fn": 733,
+    "tp": 14
+  },
+  "threshold_metrics": {
+    "0.3": {
+      "accuracy": 0.8724434876210979,
+      "precision": 1.0,
+      "recall": 0.04819277108433735,
+      "f1": 0.09195402298850575
+    },
+    "0.4": {
+      "accuracy": 0.869573017581629,
+      "precision": 1.0,
+      "recall": 0.02677376171352075,
+      "f1": 0.05215123859191656
+    },
+    "0.5": {
+      "accuracy": 0.8684965913168281,
+      "precision": 1.0,
+      "recall": 0.018741633199464525,
+      "f1": 0.03679369250985545
+    },
+    "0.6": {
+      "accuracy": 0.8675995694294941,
+      "precision": 1.0,
+      "recall": 0.012048192771084338,
+      "f1": 0.023809523809523808
+    },
+    "0.7": {
+      "accuracy": 0.8675995694294941,
+      "precision": 1.0,
+      "recall": 0.012048192771084338,
+      "f1": 0.023809523809523808
+    }
+  }
+}

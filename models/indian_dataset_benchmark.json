@@ -1,0 +1,124 @@
+{
+  "dataset_name": "karanverma19/Indian_Multilingual_Scam_Message_Dataset",
+  "note": "Exploratory benchmark only. The dataset is small and contains duplicate messages. Unique-message results remove exact duplicates but do not establish real-world performance.",
+  "total_rows": 120,
+  "unique_messages": 49,
+  "duplicate_rows": 71,
+  "full_dataset": {
+    "dataset": "all_rows",
+    "rows": 120,
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "confusion_matrix": [
+      [
+        60,
+        0
+      ],
+      [
+        60,
+        0
+      ]
+    ],
+    "classification_report": {
+      "legit": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 60.0
+      },
+      "scam": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 60.0
+      },
+      "accuracy": 0.5,
+      "macro avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 120.0
+      },
+      "weighted avg": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 120.0
+      }
+    },
+    "model_sources": {
+      "ml_model": 120
+    },
+    "per_language": {
+      "English": {
+        "rows": 41,
+        "accuracy": 0.4634,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Hindi": {
+        "rows": 37,
+        "accuracy": 0.4324,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Hinglish": {
+        "rows": 42,
+        "accuracy": 0.5952,
+        "recall": 0.0,
+        "f1_score": 0.0
+      }
+    }
+  },
+  "unique_messages_only": {
+    "dataset": "unique_messages",
+    "rows": 49,
+    "accuracy": 0.5102,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "confusion_matrix": [
+      [
+        25,
+        0
+      ],
+      [
+        24,
+        0
+      ]
+    ],
+    "classification_report": {
+      "legit": {
+        "precision": 0.5102040816326531,
+        "recall": 1.0,
+        "f1-score": 0.6756756756756757,
+        "support": 25.0
+      },
+      "scam": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 24.0
+      },
+      "accuracy": 0.5102040816326531,
+      "macro avg": {
+        "precision": 0.25510204081632654,
+        "recall": 0.5,
+        "f1-score": 0.33783783783783783,
+        "support": 49.0
+      },
+      "weighted avg": {
+        "precision": 0.2603082049146189,
+        "recall": 0.5102040816326531,
+        "f1-score": 0.34473248758963043,
+        "support": 49.0
+      }
+    },
+    "model_sources": {
+      "ml_model": 49
+    },
+    "per_language": {}
+  }
+}
